@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiffany's assignment JavaScript</title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+		html{
+			background:black;
+			height: 100%;
+			margin:0;
+			padding:0;
+		}
+		body{
+			text-align:center;
+			align-items: center;
+			color:purple;
+			font-family: 'Livvic', sans-serif;
+		}
+
+		article{
+			color:white;
+			top:50;
+
+		}
+		section{
+			display:flex;
+			justify-content: space-around;
+		}
+		.gallery, .image-direct{
+			max-width:300px;
+			max-height:400px;
+		}
+	</style>
+<main>
+	<article>
+		<h2>Hello There</h2>
+		<h3>So you are looking for some action,</h3>
+		<p><marquee>Check the console</marquee></p>
+	</article>
+	<section>
+	<img class= "gallery" src="https://imgur.com/gallery/iC1MrbG">
+<image class = "image-direct" src="https://i.imgur.com/2JPzI4g.jpg">
+</section>
+</main>
+<script type="text/javascript">
+	//--Solution for Problem 1--
+	var David = 80;
+	var Vinoth = 77
+	var Divya = 88
+	var Ishitha = 95
+	var Thomas = 68
+	console.log('Solution 1:')
+	if( David < 60){
+		console.log("David has an F grade")
+	}
+	else if(David>=60 && David<70){
+		console.log("David has a D grade")
+	}
+	else if(David>=70 && David<80){
+		console.log("David has a C grade")
+	}
+	else if(David>=80 && David<90){
+		console.log("David has a B grade")
+	}
+	else if (David>=90 && David<100){
+		console.log("David has an A grade")
+	}
+
+		if( Vinoth < 60){
+		console.log("Vinoth has an F grade")
+	}
+	else if(Vinoth>=60 && Vinoth<70){
+		console.log("Vinoth has a D grade")
+	}
+	else if(Vinoth>=70 && Vinoth<80){
+		console.log("Vinoth has a C grade")
+	}
+	else if(Vinoth>=80 && Vinoth<90){
+		console.log("Vinoth has a B grade")
+	}
+	else if (Vinoth>=90 && Vinoth<100){
+		console.log("Vinoth has an A grade")
+	}
+
+
+		if( Divya < 60){
+		console.log("Divya has an F grade")
+	}
+	else if(Divya>=60 && Divya<70){
+		console.log("Divya has a D grade")
+	}
+	else if(Divya>=70 && Divya<80){
+		console.log("Divya has a C grade")
+	}
+	else if(Divya>=80 && Divya<90){
+		console.log("Divya has a B grade")
+	}
+	else if (Divya>=90 && Divya<100){
+		console.log("Divya has an A grade")
+	}
+
+			if( Ishitha < 60){
+		console.log("Ishitha has an F grade")
+	}
+	else if(Ishitha>=60 && Ishitha<70){
+		console.log("Ishitha has a D grade")
+	}
+	else if(Ishitha>=70 && Ishitha<80){
+		console.log("Ishitha has a C grade")
+	}
+	else if(Ishitha>=80 && Ishitha<90){
+		console.log("Ishitha has a B grade")
+	}
+	else if (Ishitha>=90 && Ishitha<100){
+		console.log("Ishitha has an A grade")
+	}
+
+			if( Thomas < 60){
+		console.log("Thomas has an F grade")
+	}
+	else if(Thomas>=60 && Thomas<70){
+		console.log("Thomas has a D grade")
+	}
+	else if(Thomas>=70 && Thomas<80){
+		console.log("Thomas has a C grade")
+	}
+	else if(Thomas>=80 && Thomas<90){
+		console.log("Thomas has a B grade")
+	}
+	else if (Thomas>=90 && Thomas<100){
+		console.log("Thomas has an A grade")
+	}
+
+//--solution for problem 2--
+
+	var num1 = 3;
+	var num2 = 7;
+	var num3 = 1;
+	var armstrong = (Math.pow(num1,3) + Math.pow(num2,3)+ Math.pow(num3,3))
+	console.log("Solution 2:")
+	if(armstrong = 371){
+		console.log(armstrong + " is an armstrong number")
+	}
+	else{
+		console.log("This is not an armstrong number")
+	}
+	
+	var tnum1 = 6;
+	var tnum2 = 7;
+	var tnum3 = 8;
+	var tnumz = Math.pow(tnum1,3) + Math.pow(tnum2,3)+ Math.pow(tnum3,3)
+	console.log(tnumz)
+	if (tnumz == 678){
+		console.log(tnumz + " is an armstrong number")
+	}
+	else{
+		console.log(tnumz + " is not an armstrong number")
+	}
+	//-- solution for problem 3--
+	var numbers = "23984734"
+	console.log("Solution  3")
+  	console.log(numbers.slice(0,1))
+  	if (numbers.slice(0,2) == 22 || 24 || 26 || 28){
+  		console.log("2" + "-" + "")
+  	}
+  	else{ 
+  		console.log(numbers)
+  	}
+  	if (numbers.slice(1,2)  == 22 || 24 || 26 || 28 || 42 || 44 || 46 || 48 || 62 || 64 || 66 || 68 || 82 || 84 || 86 || 88 ){
+  		console.log("23" + "-" + "984734" )
+  	}
+  	else{
+  		console.log(numbers)
+  	}
+  	if (numbers.slice(2,2)  == 22 || 24 || 26 || 28 || 42 || 44 || 46 || 48 || 62 || 64 || 66 || 68 || 82 || 84 || 86 || 88 ){
+  		console.log("239" + "-" + "84734" )
+  	}
+  	else{
+  		console.log(numbers)
+  	}
+  	if (numbers.slice(3,2)  == 22 || 24 || 26 || 28 || 42 || 44 || 46 || 48 || 62 || 64 || 66 || 68 || 82 || 84 || 86 || 88 ){
+  		console.log("2398" + "-" + "4734" )
+  	}
+  	else{
+  		console.log(numbers)
+  	}
+  	if (numbers.slice(4,2)  == 22 || 24 || 26 || 28 || 42 || 44 || 46 || 48 || 62 || 64 || 66 || 68 || 82 || 84 || 86 || 88){
+  		console.log("2398" + "-" + "4" + "-" + "734" )
+  	}
+  	else{
+  		console.log("2398" + "-" + "4734")
+  	}
+  	if (numbers.slice(5,2)  == 22 || 24 || 26 || 28 || 42 || 44 || 46 || 48 || 62 || 64 || 66 || 68 || 82 || 84 || 86 || 88){
+  		console.log("2398" + "-" + "47" + "-" + "34" )
+  	}
+  	else{
+  		console.log(numbers)
+  	}
+  	if (numbers.slice(6,2)  == 22 || 24 || 26 || 28 || 42 || 44 || 46 || 48 || 62 || 64 || 66 || 68 || 82 || 84 || 86 || 88){
+  		console.log("2398" + "-" + "47" + "-" + "34" )
+  	}
+  	else{
+  		console.log(numbers)
+  	}
+  	if (numbers.slice(7,2)  == 22 || 24 || 26 || 28 || 42 || 44 || 46 || 48 || 62 || 64 || 66 || 68 || 82 || 84 || 86 || 88){
+  		console.log("2398" + "-" + "473" + "-" + "4" )
+  	}
+  	else{
+  		console.log(numbers)
+  	}
+  	//solution4--
+  	console.log("Solution 4:")
+  	var datearray = [22,8, 301, 404, 35, 99]
+  	var date1 = 22
+  	var date2 = 8
+  	var date3 = 301
+  	var date4 = 404
+  	var date5 = 35
+  	var date6 = 99
+
+  	 if(date1[1]==1){
+  	 	console.log(date1 + "st")
+  	 }
+  	 else if(date1[1]==2){
+  	 	console.log(date1 + "nd")
+  	 }
+  	  else if(date1[1]==3){
+  	 	console.log(date1 + "rd")
+  	 }
+  	 else{
+  	 	console.log(date1 + "th")
+  	 }
+
+  	 if(date2[0]==1){
+  	 	console.log(date2 + "st")
+  	 }
+  	 else if(date2[0]==2){
+  	 	console.log(date2 + "nd")
+  	 }
+  	  else if(date2[0]==3){
+  	 	console.log(date2 + "rd")
+  	 }
+  	 else{
+  	 	console.log(date2 + "th")
+  	 }
+
+  	 if(date3[2]==1){
+  	 	console.log(date3 + "st")
+  	 }
+  	 else if(date3[2]==2){
+  	 	console.log(date3 + "nd")
+  	 }
+  	  else if(date3[2]==3){
+  	 	console.log(date3 + "rd")
+  	 }
+  	 else{
+  	 	console.log(date3 + "th")
+  	 }
+
+  	 if(date4[2]==1){
+  	 	console.log(date4 + "st")
+  	 }
+  	 else if(date4[2]==2){
+  	 	console.log(date4 + "nd")
+  	 }
+  	  else if(date4[2]==3){
+  	 	console.log(date4 + "rd")
+  	 }
+  	 else{
+  	 	console.log(date4 + "th")
+  	 }
+
+  	 if(date5[1]==1){
+  	 	console.log(date5 + "st")
+  	 }
+  	 else if(date5[1]==2){
+  	 	console.log(date5 + "nd")
+  	 }
+  	  else if(date5[1]==3){
+  	 	console.log(date5 + "rd")
+  	 }
+  	 else{
+  	 	console.log(date5 + "th")
+  	 }
+
+  	 if(date6[1]==1){
+  	 	console.log(date6 + "st")
+  	 }
+  	 else if(date6[1]==2){
+  	 	console.log(date6 + "nd")
+  	 }
+  	  else if(date6[1]==3){
+  	 	console.log(date6 + "rd")
+  	 }
+  	 else{
+  	 	console.log(date6 + "th")
+  	 }
+
+  	//solution 5
+  	var firststring = "23423";
+
+  	var fullnumber = firststring.slice(0,1) + firststring.slice(1,1) + firststring.slice(2,1) + firststring.slice(3,1) + firststring.slice(4,1)
+  	console.log(firststring.length)	
+  	console.log(fullnumber)
+  	//solution 6
+  	var grill1 = ["--oooo-ooo--", "--xx--x--xx--","--o--o--oo--", "--xx--x--ox--" , "--xx--x--ox--"]
+  	
+
+  if(grill1[0] == "--oooo-ooo--" && "--o--o--oo--" ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  
+  if(grill1[1] == "--oooo-ooo--" && "--o--o--oo--" ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  if(grill1[2]== "--o--o--oo--" && "--oooo-ooo--"  ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  if(grill1[3]=="--oooo-ooo--" && "--o--o--oo--" ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  if(grill1[4]=="--oooo-ooo--" && "--o--o--oo--" ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+console.log("[2,3]")
+console.log("Since the first array denotes 2 vegeterian skewers and 3 non-vegeterian skewers")
+
+var grill2 = ["--oooo-ooo--", "--xxxxxxxx--","--o--", "-o---o----" , "--xx--x--ox--"]
+if(grill2[0] == "--oooo-ooo--" && "--o--" && "-o---o----" ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  
+  if(grill2[1] == "--oooo-ooo--" && "--o--" && "-o---o----" ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  if(grill2[2]==  "--o--" && "-o---o----" && "--oooo-ooo--"   ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  if(grill2[3]==  "-o---o----" && "--oooo-ooo--" && "--o--"  ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+  if(grill2[4]== "--oooo-ooo--" && "--o--" && "-o---o----" ){
+  	console.log("veg skewer")
+  }
+  else {
+  	console.log("meat skewer")
+  }
+console.log("[3,2]")
+console.log("Since the second array denotes 3 vegeterian skewers and 2 non-vegeterian skewers")
+//solution 7--
+var $string = "There is exactly one space between each word and no punctuation is used"
+console.log("Solution 7:")
+var $string = $string('')
+function stringreverse($string) {
+	$string = $string.split('')
+	$string.reverse()
+	$string= $string.join(',')
+	return $string
+}
+
+for(var i = 0; i < $string.length; i++) {
+	if(($string[i].length%2) !== 0) {
+	$string[i] = stringReverse($string[i])
+	}
+}
+
+console.log($string.join(','))
+//--solution 8
+console.log("Solution 8:")
+
+
+
+var $input1 = "inspiration"
+$input1 = $input1.split("") 
+$input1 = $input1.reverse("")
+$input1 = $input1.join("")
+console.log($input1)
+
+var $input2 = "strings"
+$input2 = $input2.split("") 
+$input2 = $input2.reverse("")
+$input2 = $input2.join("")
+console.log($input2)
+
+var $input3 = "karaca"
+$input3 = $input3.split("") 
+$input3 = $input3.reverse("")
+$input3 = $input3.join("")
+console.log($input3)
+
+var $input4 = "algorithm"
+$input4 = $input4.split("") 
+$input4 = $input4.reverse("")
+$input4 = $input4.join("")
+console.log($input4)
+
+var rep$input1 ="inspir0tion"
+var rep$input1 = "inspir0ti3n"
+console.log(rep$input1 + "aca")
+
+var rep$input2 ="strings"
+var rep$input2 = "strings"
+console.log(rep$input2 + "aca")
+
+var rep$input3 ="k0raca"
+var rep$input3 ="k0r0ca"
+var rep$input3 = "k0r0c0"
+console.log(rep$input3 + "aca")
+
+var rep$input4 ="0lgorithm"
+var rep$input4 = "0lg0rithm"
+console.log(rep$input4 + "aca")
+//problem 9--
+var checka = "[()]{}"
+var checkb = "{[([)]}"
+var checkc =  "{[([]([{}]))]([({})])}"
+var checkd = "{[([]([{}]])([({})])}"
+var balanced = "[()]"
+var unbalanced = "[({)]"
+if (checka == balanced){
+	console.log("true")
+}
+else{
+	console.log("false")
+}
+if (checkb == balanced){
+	console.log("true")
+}
+else{
+	console.log("false")
+}
+if (checkc == balanced){
+	console.log("true")
+}
+else{
+	console.log("false")
+}
+if (checkd == balanced){
+	console.log("true")
+}
+else{
+	console.log("false")
+}
+//problem10-- 
+matrix1 = [[5,6],[7,8], [9,10]]
+matrix2 = [[1,2,3],[4,5,6], [7,8,9]]
+ var mat1arr1 = "[[5,6]"
+ var mat1arr2 = "[7,8]"
+ var mat1arr3 = "[9,10]]"
+
+ var mat2arr1 = "[[1,2,3]"
+ var mat2arr2 = "[4,5,6]"
+  var mat2arr3 = "[7,8,9]]"
+console.log("Solution 10:")
+
+var split1 = "[[5,"
+var split2 = "6,"
+var split3 = "7,"
+var split4 = "8,"
+var split5 = ",9]]"
+var split6 = ",10]]"
+
+var split7 = "[[1,"
+var split8 = "[[2,"
+var split9 = "[[3,"
+var split10 = "4,"
+var split11 = "5,"
+var split12 = "6,"
+var split13 = ",7]]"
+var split14 = ",8]]"
+var split15 = ",9]]"
+console.log("Untransposed: " + matrix1)
+console.log("first transposed array")
+  console.log(split1 + split3 + split5)
+  console.log(split2 + split4 + split6)
+
+console.log("Untransposed: " + matrix2)
+console.log("second transposed array")
+  console.log(split7 + split10 + split13)
+ console.log(split8 + split11 + split14)
+  console.log(split9 + split12 + split15)
+//solution11--
+function image(){
+document.getElementsByClass('image-direct')
+console.log(""id:2JPzI4g","type:image-direct"")
+}
+function gallery(){
+document.getElementsByClass('gallery')
+console.log(""id:iC1MrbG","type:image-direct"")
+}
+
+</script>
+</body>
+</html>
